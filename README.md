@@ -35,5 +35,5 @@ This works because I've remapped Passerine's `print` to JS's `alert` through Pas
 
 ## To be done
 - [ ] Make sure passerine is 100% wasm friendly.
-- [ ] Hook up the Wasm backend to the codemirror frontend
-- [ ] Publish!
+- [X] Hook up the Wasm backend to the codemirror frontend
+- [ ] Polish and Publish!
