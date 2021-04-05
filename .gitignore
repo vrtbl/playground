@@ -1,2 +1,9 @@
 /target
 Cargo.lock
+
+/site/node_modules
+/site/package-lock.json
+/pkg
+
+**/.*
+!.gitignore
