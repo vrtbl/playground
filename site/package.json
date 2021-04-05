@@ -3,6 +3,7 @@
     "serve": "webpack-dev-server"
   },
   "dependencies": {
+    "@codemirror/basic-setup": "^0.18.0",
     "playground": "^0.1.0"
   },
   "devDependencies": {
