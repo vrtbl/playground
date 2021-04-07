@@ -20,7 +20,7 @@ Compiling this one is quite the feat, because we're quite literally orchestratin
 
 Third, in the `playground` directory, run `wasm-pack build` to build passerine as a `wasm` executable. This should create a node package in `playground/pkg`. This package can then be used to run Passerine from JS. cd into `pkg` and run `npm link`.
 
-Fourth, to run the playground, `cd` into `playground/site`. Sadly, we have to rely on the JS ecosystem: link the wasm binary with `npm link passerine`, install dependencies with `npm install`, and run the playground locally with `npm run serve`. Eventually, the playground will basically be a little codemirror editor that we can embed on https://passerine.io.
+Fourth, to run the playground, `cd` into `playground/site`. Sadly, we have to rely on the JS ecosystem: link the wasm binary with `npm link playground`, install dependencies with `npm install`, and run the playground locally with `npm run serve`. Eventually, the playground will basically be a little codemirror editor that we can embed on https://passerine.io.
 
 ## You should see
 Right now, I've hooked up a basic Codemirror editor to Passerine:
