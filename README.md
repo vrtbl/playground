@@ -1,3 +1,5 @@
+> **Note**: This was a quick experiment to test out the possibility of [embedding Passerine](https://github.com/vrtbl/passerine) in Wasm. Passerine is embeddable in Wasm, but this repo is no longer up to date, and has been set to read-only.
+
 # Passerine Playground
 Embeddable in-browser WASM playground for Passerine.
 
